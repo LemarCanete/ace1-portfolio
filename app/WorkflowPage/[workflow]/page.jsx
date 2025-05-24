@@ -6,6 +6,7 @@ import PepaMedicalClinic from "../../Components/PepaMedicalClinic"
 import EventKnowledgeBasedAI from "../../Components/EventKnowledgeBasedAI"
 import AutomatedInterviewSchedulingGoogleCalendarChatBot from "../../Components/AutomatedInterviewSchedulingGoogleCalendarChatBot"
 import Helpdesk from "../../Components/Helpdesk"
+import VapiAssistant from "../../Components/VapiAssistant"
 
 
 const page = ({params}) => {
@@ -57,6 +58,14 @@ const page = ({params}) => {
             notes: "<h4>Try asking it these questions:</h4><u><li>What are Ace1 Services?</li><li>What are Ace1 Solutions and Architects?</li><li>How to setup Email on Android</li><li>Can you connect me with the support team, I cant setup email on my android phone</li></u>",
             component: <Helpdesk />,
             link: "helpdesk"
+        },
+        {
+            name: "AI Voice Assistant",
+            description: "An interactive AI voice assistant that engages in conversation and provides information in real-time using the Vapi.ai platform.",
+            instruction: "",
+            notes: "<h4>How to use:</h4><u><li>Click the 'Start Call' button to begin speaking with the AI assistant</li><li>Speak clearly into your microphone</li><li>Click 'End Call' when you're finished</li></u>",
+            component: <VapiAssistant />,
+            link: "vapi-assistant"
         },
     ]
     

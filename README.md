@@ -20,6 +20,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Environment Variables
+
+For production deployment, you should set up environment variables for the Vapi AI integration:
+
+1. Create a `.env.local` file in the root directory with the following variables:
+
+```bash
+NEXT_PUBLIC_VAPI_API_KEY="your-vapi-api-key"
+NEXT_PUBLIC_VAPI_ASSISTANT_ID="your-vapi-assistant-id"
+```
+
+2. For production deployments on Vercel or other platforms, add these environment variables in your hosting dashboard.
+
+Note: The `NEXT_PUBLIC_` prefix is required for client-side access in Next.js applications.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

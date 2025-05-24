@@ -50,9 +50,13 @@ export default function Home() {
                 image: '/images-worflow-background/Personal Assistant.jpg',
                 link: 'https://evo-personal-assistant.vercel.app/'
             },
-            
-            
-            
+            {
+                title: 'AI Voice Assistant',
+                description: 'An interactive AI voice assistant that engages in conversation and provides information in real-time using the Vapi.ai platform.',
+                image: '/images-worflow-background/Personal Assistant.jpg',
+                link: 'WorkflowPage/vapi-assistant',
+                isVapi: true
+            }
     ]
     
 
@@ -92,7 +96,7 @@ export default function Home() {
             </section>
 
             <AboutSection />
-
+            
             <Contact />
 
             
