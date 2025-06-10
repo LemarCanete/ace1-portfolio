@@ -46,11 +46,24 @@ export default function Home() {
                 link: 'https://evo-personal-assistant.vercel.app/'
             },
             {
-                title: 'Automated Interview Scheduling Google Calendar Chat Bot',
-                description: 'This workflow uses chat as trigger. It connects with google calendar to get availability during the week and creation  of events',
-                image: '/images-worflow-background/Automated Interview Scheduling Google Calendar Chat Bot.jpg',
-                link: 'WorkflowPage/automated-interview-scheduling-google-calendar-chat-bot'
+                title: 'Project Inquiry AI Agent',
+                description: 'A chat bot that answers project related inquiries such as project status and project details',
+                image: '/images-worflow-background/Project Inquiry.jpg',
+                link: 'WorkflowPage/project-inquiry-ai-agent'
             },
+            {
+                title: 'Transcribe Youtube Videos AI Agent',
+                description: 'A chat bot that transcribes youtube videos and provides the transcript in a text format.',
+                image: '/images-worflow-background/transcribe-youtube.webp',
+                link: 'WorkflowPage/transcribe-youtube-videos-ai-agent'
+            },
+            // {
+            //     title: 'Automated Interview Scheduling Google Calendar Chat Bot',
+            //     description: 'This workflow uses chat as trigger. It connects with google calendar to get availability during the week and creation  of events',
+            //     image: '/images-worflow-background/Automated Interview Scheduling Google Calendar Chat Bot.jpg',
+            //     link: 'WorkflowPage/automated-interview-scheduling-google-calendar-chat-bot'
+            // },
+            
     ]
     
 
