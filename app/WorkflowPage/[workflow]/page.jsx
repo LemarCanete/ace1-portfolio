@@ -14,12 +14,13 @@ import TranscribeYoutubeVideosAIAgent from "../../Components/TranscribeYoutubeVi
 const page = ({params}) => {
     const workflow_info = [
         {
-            name: "AI Voice Assistant",
-            description: "An interactive AI voice assistant that engages in conversation and provides information in real-time using the Vapi.ai platform.",
+            name: "Appointment / Reservation AI Agent",
+            // description: "An interactive AI voice assistant that engages in conversation and provides information in real-time using the Vapi.ai platform.",
+            description: "A voice assistant that handles reservation and appointment.",
             instruction: "",
             notes: "<h4>How to use:</h4><u><li>Click the 'Start Call' button to begin speaking with the AI assistant</li><li>Speak clearly into your microphone</li><li>Click 'End Call' when you're finished</li></u>",
             component: <VapiAssistant />,
-            link: "vapi-assistant"
+            link: "reservation-ai-agent"
         },
         {
             name: "Data Analyst Agent",
@@ -30,12 +31,12 @@ const page = ({params}) => {
             link: "data-analyst-agent"
         },
         {
-            name: `'Ask Me' AI Agent`,
+            name: `HR AI Agent`,
             description: "A chatbot that uses AI to search through documents, scrape websites and answer questions. This is very useful to find answers related to company policies, procedures, work instructions, or any other related use cases.",
             instruction: "",
             notes: `<u><li>You can add a file link or a website link by clicking on the Add File Link button</li></u><b>You can ask questions like:</b><o><li>Why ACE-1 IT Solutions?</li><li>What is ACE-1 IT?</li><li>What are the services of ACE-1 IT?</li></o>`,
             component: <ChatTriggeredAnswerSearch />,
-            link: "ask-me-ai-agent"
+            link: "hr-ai-agent"
         },
         {
             name: "Event AI Agent",

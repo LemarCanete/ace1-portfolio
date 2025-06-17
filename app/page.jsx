@@ -8,10 +8,16 @@ export default function Home() {
 
     const portfolioData = [
             {
-                title: 'AI Voice Assistant',
-                description: 'An interactive AI voice assistant that engages in conversation and provides information in real-time using the Vapi.ai platform.',
+                title: 'Project Inquiry AI Agent',
+                description: 'A chat bot that answers project related inquiries such as project status and project details',
+                image: '/images-worflow-background/Project Inquiry.jpg',
+                link: 'WorkflowPage/project-inquiry-ai-agent'
+            },
+            {
+                title: 'Appointment / Reservation AI Agent',
+                description: 'A voice assistant that handles reservation and appointment',
                 image: '/images-worflow-background/Personal Assistant.jpg',
-                link: 'WorkflowPage/vapi-assistant',
+                link: 'WorkflowPage/reservation-ai-agent',
                 isVapi: true
             },
             {
@@ -34,22 +40,16 @@ export default function Home() {
                 link: 'WorkflowPage/data-analyst-agent'
             },
             {
-                title: `'Ask Me' AI Agent`,
+                title: `HR AI Agent`,
                 description: 'A chatbot that uses AI to search through documents, scrape websites and answer questions. This is very useful to find answers related to company policies, procedures, work instructions, or any other related use cases.',
                 image: '/images-worflow-background/Ask Me AI Agent.jpg',
-                link: 'WorkflowPage/ask-me-ai-agent'
+                link: 'WorkflowPage/hr-ai-agent'
             },
             {
                 title: 'Personal Assistant',
                 description: 'A chat bot and voice personal assistant that can perform various tasks such as scheduling appointments, sending messages, and more.',
                 image: '/images-worflow-background/Personal Assistant.jpg',
                 link: 'https://evo-personal-assistant.vercel.app/'
-            },
-            {
-                title: 'Project Inquiry AI Agent',
-                description: 'A chat bot that answers project related inquiries such as project status and project details',
-                image: '/images-worflow-background/Project Inquiry.jpg',
-                link: 'WorkflowPage/project-inquiry-ai-agent'
             },
             {
                 title: 'Transcribe Youtube Videos AI Agent',
