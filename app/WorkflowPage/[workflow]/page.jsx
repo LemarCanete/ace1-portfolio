@@ -20,7 +20,7 @@ const page = ({params}) => {
             description: "A voice assistant that handles reservation and appointment.",
             instruction: "",
             notes: "<h4>How to use:</h4><u><li>Click the 'Start Call' button to begin speaking with the AI assistant</li><li>Speak clearly into your microphone</li><li>Click 'End Call' when you're finished</li></u>",
-            component: <VapiAssistant />,
+            component: <PepaMedicalClinic />,
             link: "reservation-ai-agent"
         },
         {

@@ -8,7 +8,7 @@ import '@n8n/chat/style.css';
 const ProjectInquiry = () => {
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://dsva.app.n8n.cloud/webhook/fbe6ae09-49b8-425d-8e3e-e928038bf518/chat',
+			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/fbe6ae09-49b8-425d-8e3e-e928038bf518/chat',
             mode: 'fullscreen',
             initialMessages: [
                 'Hi there! 👋',

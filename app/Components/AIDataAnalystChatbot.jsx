@@ -8,7 +8,7 @@ import '@n8n/chat/style.css';
 const aidataanalystchatbot = () => {
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://dsva.app.n8n.cloud/webhook/db810008-eae9-4865-b6c4-e364bfa87372/chat',
+			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/db810008-eae9-4865-b6c4-e364bfa87372/chat',
             mode: 'fullscreen',
             initialMessages: [
                 'Hi there! 👋',
