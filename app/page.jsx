@@ -16,7 +16,7 @@ export default function Home() {
             {
                 title: 'Appointment / Reservation AI Agent',
                 description: 'A voice assistant that handles reservation and appointment',
-                image: '/images-worflow-background/Personal Assistant.jpg',
+                image: '/images-worflow-background/pepa_medical_clinic.jpg',
                 link: 'WorkflowPage/reservation-ai-agent',
                 isVapi: true
             },

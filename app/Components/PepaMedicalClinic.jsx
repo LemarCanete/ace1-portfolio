@@ -13,6 +13,7 @@ const PepaMedicalClinic = () => {
     const [isRecording, setIsRecording] = React.useState(false);
 
     const startCall = () =>{
+        // vapi.start("341649e3-8563-43a6-993b-137f3897162b");
         vapi.start("341649e3-8563-43a6-993b-137f3897162b");
         setIsRecording(true);
     }
