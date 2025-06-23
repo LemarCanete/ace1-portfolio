@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 const TranscribeYoutubeVideosAIAgent = () => {
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://dsva.app.n8n.cloud/webhook/70129cbe-1a05-495f-bd92-18d36c1bc260/chat',
+			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/70129cbe-1a05-495f-bd92-18d36c1bc260/chat',
             mode: 'fullscreen',
             initialMessages: [
                 'Hi there! 👋',
