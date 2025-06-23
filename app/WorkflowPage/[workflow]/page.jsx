@@ -9,6 +9,7 @@ import Helpdesk from "../../Components/Helpdesk"
 import VapiAssistant from "../../Components/VapiAssistant"
 import ProjectInquiry from "../../Components/ProjectInquiry"
 import TranscribeYoutubeVideosAIAgent from "../../Components/TranscribeYoutubeVideosAIAgent"
+import OcrExtractionAgent from "../../Components/OcrExtractionAgent"
 
 
 const page = ({params}) => {
@@ -78,6 +79,15 @@ const page = ({params}) => {
             component: <TranscribeYoutubeVideosAIAgent />,
             link: "transcribe-youtube-videos-ai-agent"
         },        
+        {
+            name: "OCR Extraction AI Agent",
+            description: "A chat bot that accurately extracts, analyzes, and organizes details from both scanned and online documents",
+            instruction: "",
+            notes: "testing",
+            component: <OcrExtractionAgent/>,
+            link: "ocr-extraction-agent"
+        }, 
+
     ]
     
     const [site, setSite] = useState('')
@@ -124,7 +134,7 @@ const page = ({params}) => {
                         {workflow.component}
                     </section>
 
-                    {/* Notes and Considetions */}
+                    {/* Notes and Considerations */}
                     <section id="workflowNotes" className="mb-8 text-sm text-gray-600">
                         <h3 className="font-semibold text-gray-700 mb-2">Notes & Considerations:</h3>
                         <div dangerouslySetInnerHTML={{ __html: workflow.notes }} />

@@ -57,6 +57,12 @@ export default function Home() {
                 image: '/images-worflow-background/transcribe-youtube.webp',
                 link: 'WorkflowPage/transcribe-youtube-videos-ai-agent'
             },
+            {
+                title: 'OCR Extraction AI Agent',
+                description: 'A chat bot that accurately extracts, analyzes, and organizes details from both scanned and online documents',
+                image: '/images-worflow-background/ocr-extraction-agent.jpg',
+                link: 'WorkflowPage/ocr-extraction-agent'
+            },
             // {
             //     title: 'Automated Interview Scheduling Google Calendar Chat Bot',
             //     description: 'This workflow uses chat as trigger. It connects with google calendar to get availability during the week and creation  of events',
