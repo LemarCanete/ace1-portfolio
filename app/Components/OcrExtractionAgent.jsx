@@ -42,7 +42,7 @@ const OcrExtractionAgent = () => {
     
     <div className="p-4 flex flex-col">
        <div className="p-4 flex flex-between gap-6">
-           <div className="bg-gray-100 p-6 rounded-lg w-[800px]"><iframe data-tally-src="https://tally.so/embed/n0zYkA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="352" frameborder="0" marginheight="0" marginwidth="0" title="OCR Extraction"></iframe>
+           <div className="bg-gray-100 p-6 rounded-lg w-[800px]"><iframe data-tally-src="https://tally.so/embed/n0zYkA?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="352" title="OCR Extraction"></iframe>
           </div> 
           <div id="n8n-ocr-extraction" className='w-full h-[500px] overflow-auto'></div> 
       </div >

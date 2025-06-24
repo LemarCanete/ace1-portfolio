@@ -83,7 +83,27 @@ const page = ({params}) => {
             name: "OCR Extraction AI Agent",
             description: "A chat bot that accurately extracts, analyzes, and organizes details from both scanned and online documents",
             instruction: "",
-            notes: "testing",
+           notes: `
+                    <h4>Try uploading these files (download them first):</h4>
+                
+                        <li>Sales Report Sample 1:
+                        <u><a href="https://fuchsia-charis-26.tiiny.site" target="_blank" rel="noopener noreferrer">
+                            https://fuchsia-charis-26.tiiny.site
+                        </a></u>
+                        </li>
+                        <li>
+                        Invoice Sample 1:
+                        <u><a href="https://turquoise-felecia-52.tiiny.site" target="_blank" rel="noopener noreferrer">
+                            https://turquoise-felecia-52.tiiny.site
+                        </a></u>
+                        </li>
+                        <li>Invoice Sample 2:
+                        <u><a href="https://ivory-carmelina-52.tiiny.site" target="_blank" rel="noopener noreferrer">
+                            https://ivory-carmelina-52.tiiny.site
+                        </a></u></li>
+                    <h4>Try asking chat these questions:</h4>
+                    <li>'Can you summarize invoice with Customer Code GL001-U'</li><li>'Can you summarize sales reports from year 2030'</li>
+                    `,
             component: <OcrExtractionAgent/>,
             link: "ocr-extraction-agent"
         }, 
