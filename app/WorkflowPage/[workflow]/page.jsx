@@ -67,7 +67,7 @@ const page = ({params}) => {
             name: "Project Inquiry AI Agent",
             description: "A chat bot that answers project related inquiries such as project status and project details. This AI agent could also translate different languages to English.",
             instruction: "",
-            notes: "<h4>Try sending a message to ms teams - lcanete@ace1it.com</h4><h4>Try asking it these questions:</h4><u><li>What is the update for Bridge Expansion project?</li><li>מה אתם עושים שם? הרבה פרויקטים עדיין תלויים ועומדים.</li></u>",
+            notes: "<h4>Try sending a message to ms teams - lcanete@ace1it.com</h4><h4>Try asking it these questions:</h4><u><li>What is the update for Bridge Expansion project?</li><li>Gusto kong mangutana bahin sa proyekto DP00003</li><li>Gusto kong magtanong tungkol sa proyektong DP00001</li></u>",
             component: <ProjectInquiry />,
             link: "project-inquiry-ai-agent"
         },
