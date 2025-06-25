@@ -8,10 +8,10 @@ import '@n8n/chat/style.css';
 const ProjectInquiry = () => {
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/fbe6ae09-49b8-425d-8e3e-e928038bf518/chat',
+			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/663a898b-9b6b-4f04-b95b-9efbf765aea3/chat',
             mode: 'fullscreen',
             initialMessages: [
-                'Hi there! 👋',
+                `Hi, I'm ProTracker, how may I help you today? Can you please provide the project name?`,
             ],
             target: '#n8n-projectInquiry',
             i18n: {
@@ -27,7 +27,7 @@ const ProjectInquiry = () => {
 	}, []);
     return (
         <div className="p-4 flex flex-between gap-6">
-            <iframe width={800} height={500} src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRW2B-EyAB3uuYTBbfNsjNhxxihEGgobFAbsg6-GO3Fkg340gKHDQOFTa7Lnv4kvP74UYJPrpvgcbvb/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+            <iframe width={800} height={500} src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRW2B-EyAB3uuYTBbfNsjNhxxihEGgobFAbsg6-GO3Fkg340gKHDQOFTa7Lnv4kvP74UYJPrpvgcbvb/pubhtml?widget=true&amp;headers=false"></iframe>
             <div id="n8n-projectInquiry" className='w-full h-[500px] overflow-auto'></div> 
         </div>
     )

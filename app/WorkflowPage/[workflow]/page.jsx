@@ -83,7 +83,8 @@ const page = ({params}) => {
             name: "OCR Extraction AI Agent",
             description: "A chat bot that accurately extracts, analyzes, and organizes details from both scanned and online documents",
             instruction: "",
-           notes: `
+            notes: `
+                     <h4>Type of Document can be customized for you</h4>
                     <h4>Try uploading these files (download them first):</h4>
                 
                         <li>Sales Report Sample 1:
