@@ -8,7 +8,7 @@ import '@n8n/chat/style.css';
 const ProjectInquiry = () => {
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/663a898b-9b6b-4f04-b95b-9efbf765aea3/chat',
+			webhookUrl: 'https://dsva.app.n8n.cloud/webhook/663a898b-9b6b-4f04-b95b-9efbf765aea3/chat',
             mode: 'fullscreen',
             initialMessages: [
                 `Hi, I'm ProTracker, how may I help you today? Can you please provide the project name?`,
