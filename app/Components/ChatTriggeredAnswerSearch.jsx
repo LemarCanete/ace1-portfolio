@@ -9,7 +9,7 @@ import { Paperclip } from 'lucide-react';
 const ChatTriggeredAnswerSearch = () => {
     useEffect(() => {
 		createChat({
-			webhookUrl: 'https://n8n-production-1b3a.up.railway.app/webhook/09a9c2c6-f66a-4f40-8ddf-2669e55d7a3b/chat',
+			webhookUrl: 'https://dsva.app.n8n.cloud/webhook/09a9c2c6-f66a-4f40-8ddf-2669e55d7a3b/chat',
             mode: 'fullscreen',
             initialMessages: [
                 'Hi there! 👋',

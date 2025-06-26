@@ -125,7 +125,7 @@ const page = ({params}) => {
             <header className="bg-white shadow-sm">
                 <div className="container mx-auto px-6 py-4 flex justify-between items-center">
                     <h1 id="workflowTitle" className="text-xl md:text-2xl font-bold text-indigo-700">{site}</h1>
-                    <a href="/" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium py-2 px-4 rounded-md border border-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
+                    <a href="/Homepage" className="text-sm text-indigo-600 hover:text-indigo-800 font-medium py-2 px-4 rounded-md border border-indigo-600 hover:bg-indigo-50 transition-colors duration-150">
                         &larr; Back to Portfolio
                     </a>
                 </div>
